@@ -1,0 +1,17 @@
+.body
+{
+	background-color:skyblue;
+	text-align: center;
+	height:100hv;
+	font-family: Arial,sans-serif;
+	justify-content: center;
+	align-content: center;
+}
+.login-container
+{
+  	background:#ffff;
+  	padding:25px;
+  	border-radius:7px;
+    width:300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+ }

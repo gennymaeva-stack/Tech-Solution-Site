@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<HTML LANG=EN>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint"content="width=device-width initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="REGISTER.css">
+</head>
+<body>
+	 <div class="registration-container">
+	 	     <h2>REGISTER</h2>
+	 	<form>
+	 		<div class="input-boxf">
+	 			<label for="FullName">Full Name</label>
+	 		   <input type="text" placeholder="Enter Your Full Name" minlength="5" maxlength="15" id="fullname"  required>
+	 		</div>
+	 		
+
+
+	 		<div class="input-boxu">
+	 			<label for="username">Username</label>
+	 		    <input type="text" placeholder="Enter Your username" minlength="5" maxlength="15" id="username"  required>
+	 		</div>
+
+
+	 		<div class="input-box">
+	 			<label for="phone">Phone Number</label>
+	 		    <input type="tel" placeholder="Enter Your number" minlength="9" maxlength="9" id="phone" pattern="[0-9]{9}" title="Phone Number must contain ONLY numbers"required>
+	 		</div>
+
+
+	 		<div class="input-boxmail">
+	 			<label for="email">Email</label>
+	 		    <input type="email" placeholder="Enter Your Email" id="number"  required>
+	 	    </div>
+
+
+	 		<div class="input-box">
+	 			<label for="password">Password</label>
+	 		<input type="password"placeholder="Enter Your Password" minlength="8" maxlength="15" pattern="(?=.*[a-z])(?=.*[A-z])(?=.*[!@#$%&*?]).{8,}" title="Password must contain at least 8 characters , one lowercase character, one uppercase character, one special character" id="password" required>
+            </div>
+
+	 		<div class="input-box">
+	 			<label for="confirm-password">Confirm Password</label>
+	 		    <input type="Password"placeholder="Confirm Password" id="confirm-password" maxlength="15" pattern="(?=.*[a-z])(?=.*[A-z])(?=.*[!@#$%&*?]).{8,}" required>
+	 		</div>
+
+
+	 		<button type="submit">Register Now</button>
+
+
+	 		<p class="account-exist"><a href="LOGIN.html" >Already have an account</p>
+	 			
+	 	</form>
+	 </div>
+</body>

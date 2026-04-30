@@ -1,0 +1,81 @@
+*{
+	padding:0
+	margin:0;
+	font-family:century gothic;
+}
+header{
+	background-image:url('pinkhtml.jpeg');
+	height:100vh;
+	background-position:center;
+	background-size:cover
+
+}
+ul{
+	float: right;
+	margin-top: 20px
+	list-style:name;
+}
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration:none;
+	padding: 5px 20px;
+	transition: 1 ease;
+	border: 1px solid #darkblue;
+	margin: 2px;
+	color: white;
+
+}
+ul li a:hover{
+	background-color:#ffff;
+	color:#000;
+
+}
+
+.main{
+	max-width:1200px;
+	margin-top:-72px;
+
+
+}
+
+.title{
+	position: absolute;
+	top:14%;
+	right:14%;
+	transform: translate(-50%, 50%);
+}
+
+.title h1 {
+	font-size: 70px;
+	color: #fff;
+
+}
+.button{
+	position:absolute;
+	top:55%;
+	left:49%;
+	transform:translate(-50%,50%);
+
+
+}
+
+.btn{
+	border:none;
+	padding:12px 10px;
+	color:#fff;
+	text-decoration: none;
+	margin:16px;
+
+
+}
+
+.btn:hover{
+	background-color:#fff;
+	border: 20px;
+	color:#DDD;
+	transition:0.5, ease;
+}
+

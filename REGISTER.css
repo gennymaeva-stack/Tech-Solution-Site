@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	min-height: 100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px;
+	background-image:url('pinkhtml.jpeg');
+	background-size:cover;
+	background-position-x: 50;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+.registration-container {
+   max-width: 400px;
+   width:100%;
+   background: #fff;
+   padding:25px;
+   border-radius: 20px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.registration-container h2 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align:center;
+	margin-bottom:30px;
+	color:pink;
+
+}
+ button
+  {
+   width: 150px;
+   padding: 10px;
+   margin-top: 20px;
+   background-color:lightpink;
+   color:mistyrose;
+   border: none;
+   border-radius: 4px;
+
+  }
+   button:hover{
+   	background-color: pink;
+   	cursor: pointer;
+   }
+ .account-exist{
+ 	text-align: right;
+ 	margin-right: 20px;
+ 	margin-bottom:30px;
+ 	margin-top: -30px;
+ }
+
+ input[type=text], input[type=password] ,input[type=tel],input[type=email]
+ {
+ 	width:300px;
+ 	align-content: center;
+ 	align-items: center;
+ 	padding:10px;
+ 	margin:8 px 2 16px;
+ 	border:1px solid lightpink;
+ 	border-radius:4px;
+ 	
+ }
+
+.input-boxmail {
+width: 200px;
+height: 40px;
+	margin-bottom: 15px;
+	margin-top:-30pxS;
+}
+
